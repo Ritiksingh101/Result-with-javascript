@@ -1,0 +1,54 @@
+#p1{
+    display:none;
+    background-color: aqua;
+
+ 
+    width: 20%;
+}
+body form input{
+    /* background-color: aqua; */
+    outline-color: aqua;
+ 
+}
+
+body table th{
+   
+    /* background-color: aqua; */
+      width:28%;
+    height: 10vh;
+  
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        background-color: beige;
+    }
+    form{
+        background-color: aqua;
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    form input{
+        width: 90%;
+        height: 5vh;
+  
+    }
+    #p1{
+        background-color: rgba(232, 131, 222, 0.632);
+        width: 100% ;
+    }
+    body table th{
+    width: 10%;
+    border-color: aliceblue;
+      
+    }
+    
+}
+
+
